@@ -1,0 +1,51 @@
+---
+doc_summary: A reference example of the YMJ file format showing all three sections.
+kind: example
+version: 1.0.0
+subject: YMJ Reference Example
+maintained_by: Syne
+ymj_spec: 1.0.0
+created: 2025-11-19
+classification: public
+tags:
+  - reference
+  - spec
+  - example
+---
+# YMJ Reference Example
+
+This document serves as a canonical example of the **YMJ** format.
+
+## The Body
+The body is standard Markdown. It can contain:
+*   Text
+*   Images
+*   Code blocks
+
+### Code Block Example
+```python
+def hello():
+    print("Hello, YMJ!")
+```
+
+## The Footer
+Below this body is the JSON footer. It contains:
+1.  `schema`: The version of the footer schema.
+2.  `payload_hash`: A SHA-256 hash of this body content (used to detect staleness).
+3.  `index`: Metadata for search and retrieval, including vector embeddings.
+
+```json
+{
+  "schema": "1",
+  "payload_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "index": {
+    "tags": [
+      "reference",
+      "spec",
+      "example"
+    ],
+    "embedding": [],
+    "model": "nomic-embed-text-v1.5"
+  }
+}
+```
