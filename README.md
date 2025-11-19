@@ -65,3 +65,11 @@ See [SPECIFICATION.md](./SPECIFICATION.md) for the full technical details.
 ## Selector Registry
 
 See [YMJ_SELECTOR_REGISTRY.md](./YMJ_SELECTOR_REGISTRY.md) for the registry of body selectors used to extract specific payloads from the Markdown body.
+
+## Origins & Prior Art
+
+The YMJ format was developed to solve the specific problem of **"Serverless RAG"**—keeping embeddings attached to their content without requiring external vector databases or sidecar files.
+
+While YAML frontmatter is an industry standard, the use of a **JSON footer** for machine-managed operational data (embeddings, hashes, execution state) appears to be a novel application of this "Sandwich" pattern.
+
+If you are aware of prior art or existing standards that utilize this specific YAML-Markdown-JSON structure, please open an issue. We aim to align with broader community standards where they exist.
