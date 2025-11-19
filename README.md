@@ -49,7 +49,7 @@ This is the body of the document. It is standard Markdown.
 
 ## Tooling
 
-The reference implementation for YMJ is available in the [SFA Toolkit](https://github.com/sfa-toolkit) as `sfa_ymj.py`.
+The reference implementation for YMJ is available in the [SFA Toolkit](https://github.com/baldsam/sfa-toolkit) as `sfa_ymj.py`.
 
 ### Common Operations
 
