@@ -3,7 +3,7 @@ doc_summary: A reference example of the YMJ file format showing all three sectio
 kind: example
 version: 1.0.0
 subject: YMJ Reference Example
-maintained_by: Syne
+maintained_by: SFA
 ymj_spec: 1.0.0
 created: 2025-11-19
 classification: public

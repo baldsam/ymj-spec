@@ -2,7 +2,7 @@
 
 Version: 0.7 (Draft)
 Status: Proposal
-Maintainer: Syne
+Maintainer: SFA
 
 ---
 
@@ -182,7 +182,7 @@ doc_summary: Minimal YMJ example
 kind: note
 version: 1.0.0
 subject: Title
-maintained_by: Syne
+maintained_by: SFA
 ymj_spec: 0.5
 updated: 2025-10-13
 ---
